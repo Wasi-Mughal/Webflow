@@ -25,10 +25,3 @@ $(".faq_toggle").on("click", function () {
 });
 </script>
 
-
-
-<style>
-.faq_toggle.open .faq_icon {
-	transform: rotate(45deg);
-}
-</style>
