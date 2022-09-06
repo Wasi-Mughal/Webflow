@@ -1,0 +1,14 @@
+<script>
+
+// Sent body to overflow hidden on first click of hamburger icon
+$('.c-nav_button').click(function() {
+  var clicks = $(this).data('clicks');
+  if (clicks) {
+     $("body").css("overflow", "auto");
+  } else {
+     $("body").css("overflow", "hidden");
+  }
+  $(this).data("clicks", !clicks);
+});
+
+</script>
