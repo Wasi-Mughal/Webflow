@@ -1,0 +1,17 @@
+<style>
+.main-wrapper {
+	scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.section-strategy {
+	scroll-snap-align: start;
+}
+
+.section-home-header {
+	scroll-snap-align: start;
+}
+
+.section-website {
+	scroll-snap-align: start;
+}
+</style>
